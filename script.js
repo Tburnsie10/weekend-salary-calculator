@@ -42,6 +42,8 @@ function deleteRow(event) {
 }
 
 
+//making a new variable to represent the querySelectorAll('#salary') input that we are pulling from the interpolations above
+//then we are adding them up in a for of loop. making the item.innerHTML a number with the Number()
 function updateCost() {
     let sal = document.querySelectorAll('#salary')
     let total = 0;
