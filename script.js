@@ -11,6 +11,8 @@ function submitForm(event) {
     let idNum = inputs[2].value
     let title = inputs[3].value
     let annualSal = inputs[4].value
+
+    //assigning all the inputs a new variable.
     
 
     let tBody = document.querySelector('#tbody')
