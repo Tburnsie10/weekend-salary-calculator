@@ -35,6 +35,9 @@ function submitForm(event) {
 
 function deleteRow(event) {
     
+    //this went to our event target and the parentElement of salary is the td and the parentElement of td is the tr and 
+    //we wanted to remove the entire tr with remove()
+
     event.target.parentElement.parentElement.remove()
 
     updateCost();
