@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <title>Beadlum</title>
+</head>
+<body>
+    
+    
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-3 text-center">Add Employee</h1>
+          <form class="form-inline" onSubmit="submitForm(event)">
+            <input placeholder="First Name"  type="text" /><br />
+            <input placeholder="Last Name"  type="text" /><br />
+            <input placeholder="ID Number"  type="number" /><br />
+            <input placeholder="Job Title"  type="text" /><br />
+            <input placeholder="Annual Salary" type="number"/>
+            <input class="btn-danger " value="Submit" type="submit"/>
+          </form>
+        </div>
+      </div>
+
+
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1  class="display-3 text-center">Monthly Cost</h1>
+          <h2 style="background-color: lightgreen;" class="text-center" id="cost">$ 0</h2>
+          <table class="table table-hover">
+            <thead>
+              <tr>
+                
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>ID Number</th>
+                <th>Job Title</th>
+                <th>Annual Salary</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody id="tbody">
+              
+            </tbody>
+          </table>
+         
+        </div>
+      </div>
+
+
+
+
+
+
+
+      <script src="script.js"></script>
+      
+</body>
+
+</html>
