@@ -30,6 +30,7 @@ function submitForm(event) {
     //string interpolations so when we call the tBody variable the items we type into the inputs will be applied to our rows.
 
     updateCost();
+    //adding the function so the cost is updated when we delete rows.
 }  
 
 function deleteRow(event) {
@@ -37,6 +38,7 @@ function deleteRow(event) {
     event.target.parentElement.parentElement.remove()
 
     updateCost();
+     //adding the function so the cost is updated when we delete rows.
 }
 
 
