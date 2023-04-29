@@ -27,7 +27,7 @@ function submitForm(event) {
         <td><button onclick="deleteRow(event)" >delete</button></td>
     </tr> 
 `
-    
+    //string interpolations so when we call the tBody variable the items we type into the inputs will be applied to our rows.
 
     updateCost();
 }  
